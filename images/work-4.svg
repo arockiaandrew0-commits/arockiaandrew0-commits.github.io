@@ -1,0 +1,19 @@
+<svg width="570" height="414" viewBox="0 0 570 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="570" height="414" fill="#F0F0F0"/>
+<g stroke="#000" stroke-opacity=".25" stroke-width="2">
+<line x1="285" y1="207" x2="140" y2="110"/><line x1="285" y1="207" x2="130" y2="300"/><line x1="285" y1="207" x2="285" y2="80"/>
+<line x1="285" y1="207" x2="440" y2="120"/><line x1="285" y1="207" x2="455" y2="300"/><line x1="285" y1="207" x2="285" y2="340"/>
+</g>
+<line x1="285" y1="207" x2="440" y2="120" stroke="#FE4300" stroke-width="3" stroke-dasharray="6 6"/>
+<circle cx="285" cy="207" r="34" fill="#000"/>
+<text x="285" y="212" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#fff">KALI</text>
+<g fill="#ffffff" stroke="#000" stroke-width="2"><circle cx="140" cy="110" r="18"/><circle cx="130" cy="300" r="18"/><circle cx="285" cy="80" r="18"/><circle cx="455" cy="300" r="18"/><circle cx="285" cy="340" r="18"/></g>
+<circle cx="440" cy="120" r="24" fill="#FE4300"/>
+<rect x="360" y="150" width="170" height="92" rx="12" fill="#ffffff"/>
+<g font-family="Consolas, monospace" font-size="11">
+<text x="374" y="172" fill="#000" font-weight="700">nmap -sV 10.0.0.12</text>
+<text x="374" y="192" fill="#868686">22/tcp  open  ssh</text>
+<text x="374" y="210" fill="#FE4300">80/tcp  open  http (vuln)</text>
+<text x="374" y="228" fill="#868686">443/tcp open  https</text>
+</g>
+</svg>

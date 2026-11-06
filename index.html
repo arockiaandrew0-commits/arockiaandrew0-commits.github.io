@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<meta property="og:title" content="Arockia Andrew | Security Analyst">
+<meta property="og:image" content="images/me.webp">
+<title>Arockia Andrew</title>
+<meta name="description" content="Arockia Andrew, security analyst. Intrusion detection, digital forensics and penetration testing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&display=swap">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: { primary: '#FE4300', secondary: '#868686', softGray: '#F0F0F0', mistGray: '#D7DCDD', gray: '#C0D8E0' },
+        screens: { xs: '425px' },
+        fontFamily: { sans: ['"Bricolage Grotesque"', 'Segoe UI', 'system-ui', 'sans-serif'] }
+      }
+    }
+  }
+</script>
+<style type="text/tailwindcss">
+  /* Layout: ThemeWagon "Resume" template (MIT) — light single theme, numbered sections, orange accent. */
+  :root { color-scheme: light; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #ffffff; color: #000000; @apply font-sans; }
+  .container { @apply w-full max-w-[80rem] mx-auto px-5 sm:px-7; }
+  h1 { @apply text-4xl md:text-5xl xl:text-7xl 2xl:text-[85px] font-semibold leading-tight m-0; }
+  h2 { @apply text-3xl md:text-5xl lg:text-6xl xl:text-[65px] font-semibold m-0; }
+  h3 { @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold m-0; }
+  h5 { @apply text-xl xl:text-2xl font-medium m-0; }
+  h6 { @apply text-sm md:text-base xl:text-xl font-normal m-0; }
+  p  { @apply text-base text-secondary m-0; }
+  .btn-o { @apply relative overflow-hidden inline-flex w-fit py-2 sm:py-3 md:py-4 px-4 sm:px-5 md:px-7 border border-primary rounded-full text-lg md:text-xl font-medium no-underline; }
+  .btn-o::before { content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 0; background: #FE4300; transition: height .3s ease; z-index: 0; }
+  .btn-o:hover::before { height: 100%; }
+  .btn-o span { position: relative; z-index: 1; transition: color .3s; }
+  .btn-o:hover span { color: #fff; }
+  .sec-head { @apply flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16; }
+  .wave { animation: wave 2.5s infinite; transform-origin: 70% 70%; display: inline-block; }
+  @keyframes wave { 0%{transform:rotate(0)} 10%{transform:rotate(14deg)} 20%{transform:rotate(-8deg)} 30%{transform:rotate(14deg)} 40%{transform:rotate(-4deg)} 50%{transform:rotate(10deg)} 60%,100%{transform:rotate(0)} }
+  a:focus-visible, button:focus-visible { outline: 2px solid #FE4300; outline-offset: 3px; border-radius: 6px; }
+  @media (prefers-reduced-motion: reduce) { .wave { animation: none; } html { scroll-behavior: auto; } }
+</style>
+
+</head>
+<body>
+<!-- Header -->
+<header class="absolute top-0 left-0 z-50 w-full">
+  <div class="container">
+    <nav class="py-7 flex items-center gap-4 sm:gap-8">
+      <a href="#top" aria-label="Arockia Andrew, home"><img src="images/logo.svg" alt="AA logo" width="70" height="70"></a>
+      <a href="#contact" class="btn-o"><span class="text-black">Hire Me</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <!-- Hero -->
+  <section class="relative overflow-hidden pt-36 md:pt-40 pb-12 lg:pb-32 xl:pt-52">
+    <div class="container">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+        <div class="flex flex-col gap-4 md:gap-7 max-w-2xl">
+          <div>
+            <div class="flex items-center gap-6 md:gap-8">
+              <h1>I'm Arockia</h1>
+              <span class="wave"><img src="images/wave-icon.svg" alt="" width="62" height="62" class="w-10 md:w-[62px]"></span>
+            </div>
+            <h1>Security Analyst</h1>
+          </div>
+          <p class="max-w-md xl:max-w-xl text-lg">
+            Cybersecurity and machine learning graduate (B.Tech IT, 2026). I build intrusion detection
+            systems in Python, trained in digital forensics at CDAC, and test networks the way an attacker would.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a href="#work" class="btn-o"><span class="text-primary">View my work</span></a>
+          </div>
+        </div>
+        <!-- Portrait -->
+        <div class="relative mx-auto lg:mr-0 w-full max-w-[300px] sm:max-w-[420px] lg:max-w-[460px]">
+          <div class="absolute -right-6 -bottom-6 w-[85%] aspect-square rounded-full bg-gradient-to-t from-softGray to-primary" aria-hidden="true"></div>
+          <div class="absolute -left-8 -top-8 w-28 h-28 rounded-full border-2 border-dashed border-primary/60 hidden sm:block" aria-hidden="true"></div>
+          <div class="relative rounded-[32px] overflow-hidden bg-softGray aspect-[4/5] shadow-[0_30px_60px_-20px_rgba(0,0,0,0.35)]">
+            <img src="images/me.webp" alt="Portrait of Arockia Andrew" width="1086" height="1448" class="w-full h-full object-cover object-top">
+          </div>
+          <div class="absolute -left-4 sm:-left-12 top-[18%] flex items-center gap-2.5 bg-white rounded-full py-2.5 pl-3 pr-5 shadow-lg">
+            <span class="w-3 h-3 rounded-full bg-primary"></span><span class="text-sm sm:text-base font-semibold">Threat found</span>
+          </div>
+          <div class="absolute -right-3 sm:-right-8 bottom-[14%] flex items-center gap-2.5 bg-white rounded-full py-2.5 pl-3 pr-5 shadow-lg">
+            <span class="w-3 h-3 rounded-full bg-[#1fb57d]"></span><span class="text-sm sm:text-base font-semibold">Secured</span>
+          </div>
+          <div class="absolute left-3 sm:-left-6 -bottom-5 bg-black text-white rounded-2xl px-4 py-3 font-mono text-[11px] sm:text-xs leading-relaxed shadow-lg">
+            <span class="text-gray">$ ./atdr --iface eth0</span><br>
+            <span class="text-primary">[ALERT] port scan 10.0.4.23</span><br>
+            <span>[RESP] source blocked</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact bar -->
+  <section class="border-t border-softGray">
+    <div class="container">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4 py-6 md:py-7">
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 md:gap-5 lg:gap-11">
+          <a href="mailto:arockiaandrew0@gmail.com" class="flex items-center gap-2 lg:gap-4 no-underline text-black hover:text-primary">
+            <img src="images/mail-icon.svg" alt="" width="24" height="24"><h6>arockiaandrew0@gmail.com</h6>
+          </a>
+          <span class="flex items-center gap-2 lg:gap-4">
+            <img src="images/call-icon.svg" alt="" width="24" height="24"><h6>+91 63796 63059</h6>
+          </span>
+          <a href="https://github.com/arockiaandrew0-commits" target="_blank" rel="noopener" class="flex items-center gap-2 lg:gap-4 no-underline text-black hover:text-primary">
+            <img src="images/web-icon.svg" alt="" width="24" height="24"><h6>github.com/arockiaandrew0-commits</h6>
+          </a>
+        </div>
+        <a href="https://www.linkedin.com/in/arockia-andrew-823248445" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <img src="images/linkedin-icon.svg" alt="LinkedIn" width="30" height="30" class="hover:opacity-80">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 01 About -->
+  <section id="about" class="relative bg-softGray py-12 md:py-32">
+    <div class="absolute top-0 w-full px-9 pointer-events-none" aria-hidden="true">
+      <img src="images/resume-bg-img.svg" alt="" width="1200" height="348" class="w-full">
+    </div>
+    <div class="relative z-10 container">
+      <div class="flex items-center justify-between gap-2 border-b border-black pb-7">
+        <h2>About Me</h2><p class="text-xl text-primary">( 01 )</p>
+      </div>
+      <div class="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
+        <div class="w-[303px] h-[440px] hidden lg:flex shrink-0">
+          <img src="images/about-banner-img.svg" alt="" width="303" height="440" class="w-full h-full">
+        </div>
+        <div class="w-full lg:max-w-2xl flex-1">
+          <p class="text-lg">
+            Attackers hide inside normal traffic, so I start by learning what normal looks like. I capture
+            packets with Wireshark, map networks with Nmap, and train Scikit-learn models on that baseline so
+            unusual connections stand out. Then I switch sides: scanning, exploiting and writing up findings
+            against the OWASP Top 10, so the detection I build is based on how real attacks work. I'm looking
+            for SOC and security analyst roles in India or the Gulf, and I'm happy to relocate.
+          </p>
+          <div class="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
+            <div><h3>02</h3><p class="text-base md:text-lg text-black">Security internships</p></div>
+            <div><h3>02</h3><p class="text-base md:text-lg text-black">Detection systems built</p></div>
+            <div><h3>10+</h3><p class="text-base md:text-lg text-black">Security tools used</p></div>
+          </div>
+          <div class="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
+            <div class="flex items-center gap-3.5">
+              <img src="images/lang-icon.svg" alt="" width="30" height="30">
+              <p class="text-base xl:text-xl text-black">Language</p>
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-2.5">
+              <p class="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl">English</p>
+              <p class="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl">Tamil</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 Experience -->
+  <section id="experience" class="py-16 md:py-32">
+    <div class="container">
+      <div class="sec-head"><h2>Experience</h2><p class="text-xl text-primary">( 02 )</p></div>
+      <div class="space-y-10 md:space-y-12" id="xp">
+        <!-- rows -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative">
+          <div><h3 class="font-bold mb-2">2025</h3><h4 class="text-lg font-normal m-0">Ethical Hacking &amp; Penetration Testing Intern</h4></div>
+          <div class="relative">
+            <div class="absolute left-0 top-3 w-px h-full sm:h-36 bg-softGray"></div>
+            <div class="absolute left-0 top-0 -translate-x-1/2"><div class="w-3.5 h-3.5 rounded-full border border-black bg-white"></div></div>
+            <div class="pl-5 lg:pl-7"><span class="text-xl block mb-1">IT Desk, Marthandam</span><p>Internship · June 2025</p></div>
+          </div>
+          <div class="pl-8 sm:pl-0"><p class="leading-relaxed">Hands-on penetration testing in lab networks: host discovery with Nmap and Angry IP Scanner, vulnerability assessment against the OWASP Top 10, and exploitation with Kali Linux tools.</p></div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative">
+          <div><h3 class="font-bold mb-2">2025</h3><h4 class="text-lg font-normal m-0">Cyber Security &amp; Digital Forensics Intern</h4></div>
+          <div class="relative">
+            <div class="absolute left-0 top-3 w-px h-full sm:h-36 bg-softGray"></div>
+            <div class="absolute left-0 top-0 -translate-x-1/2"><div class="w-3.5 h-3.5 rounded-full border border-primary bg-white flex items-center justify-center"><div class="w-1.5 h-1.5 rounded-full bg-primary"></div></div></div>
+            <div class="pl-5 lg:pl-7"><span class="text-xl block mb-1">CDAC Thiruvananthapuram</span><p>Internship · Jan – Apr 2025</p></div>
+          </div>
+          <div class="pl-8 sm:pl-0"><p class="leading-relaxed">Trained at the Centre for Development of Advanced Computing (Govt. of India) in network and digital forensics: evidence acquisition, packet analysis with Wireshark and incident investigation.</p></div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 md:gap-4 xl:gap-8 items-start relative">
+          <div><h3 class="font-bold mb-2">2026+</h3><h4 class="text-lg font-normal m-0">SOC / Security Analyst</h4></div>
+          <div class="relative">
+            <div class="absolute left-0 top-0 -translate-x-1/2"><div class="w-3.5 h-3.5 rounded-full border border-black bg-white"></div></div>
+            <div class="pl-5 lg:pl-7"><span class="text-xl block mb-1">Your team?</span><p>Full-time · India or Gulf</p></div>
+          </div>
+          <div class="pl-8 sm:pl-0"><p class="leading-relaxed">Ready to monitor, triage and respond to threats in a security operations team, and to build Python tooling that catches what standard rules miss.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 Education & Skills -->
+  <section id="skills" class="border-t border-softGray overflow-hidden">
+    <div class="container relative">
+      <img src="images/edu-skill-vector.svg" alt="" width="260" height="170" class="absolute top-0 left-0 -translate-y-1/2 pointer-events-none">
+      <div class="relative z-10 py-16 md:py-32">
+        <div class="sec-head"><h2>Education &amp; Skills</h2><p class="text-xl text-primary">( 03 )</p></div>
+        <div class="flex flex-col lg:flex-row items-center gap-10 xl:gap-20">
+          <div class="w-full lg:max-w-md flex flex-col gap-6 xl:gap-8">
+            <div class="flex items-start gap-6">
+              <div class="mt-2.5 w-3.5 h-3.5 rounded-full border border-black bg-white flex items-center justify-center shrink-0"><div class="w-1.5 h-1.5 rounded-full bg-black"></div></div>
+              <div class="flex-1 flex flex-col gap-2"><h5>B.Tech Information Technology – 2026</h5><p>Noorul Islam Centre for Higher Education, Kumaracoil. Final-year project in machine-learning threat detection.</p></div>
+            </div>
+            <div class="flex items-start gap-6">
+              <div class="mt-2.5 w-3.5 h-3.5 rounded-full border border-black bg-white flex items-center justify-center shrink-0"><div class="w-1.5 h-1.5 rounded-full bg-black"></div></div>
+              <div class="flex-1 flex flex-col gap-2"><h5>Cyber Security &amp; Forensics – 2025</h5><p>Internship training at CDAC Thiruvananthapuram, Government of India.</p></div>
+            </div>
+            <div class="flex items-start gap-6">
+              <div class="mt-2.5 w-3.5 h-3.5 rounded-full border border-black bg-white flex items-center justify-center shrink-0"><div class="w-1.5 h-1.5 rounded-full bg-black"></div></div>
+              <div class="flex-1 flex flex-col gap-2"><h5>Ethical Hacking &amp; Pen Testing – 2025</h5><p>Internship training at IT Desk, Marthandam.</p></div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 xs:grid-cols-3 gap-5 xl:gap-7 w-full">
+            <div class="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-4 sm:gap-6 items-center justify-between text-center"><img src="images/skill-python.svg" alt="" width="70" height="70"><p class="text-black">Python</p><span class="text-xs text-secondary">Scripting · sockets</span></div>
+            <div class="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-4 sm:gap-6 items-center justify-between text-center"><img src="images/skill-wireshark.svg" alt="" width="70" height="70"><p class="text-black">Wireshark</p><span class="text-xs text-secondary">Packet analysis</span></div>
+            <div class="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-4 sm:gap-6 items-center justify-between text-center"><img src="images/skill-kali.svg" alt="" width="70" height="70"><p class="text-black">Kali Linux</p><span class="text-xs text-secondary">Pen testing</span></div>
+            <div class="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-4 sm:gap-6 items-center justify-between text-center"><img src="images/skill-nmap.svg" alt="" width="70" height="70"><p class="text-black">Nmap</p><span class="text-xs text-secondary">Recon · scanning</span></div>
+            <div class="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-4 sm:gap-6 items-center justify-between text-center"><img src="images/skill-ml.svg" alt="" width="70" height="70"><p class="text-black">Scikit-learn</p><span class="text-xs text-secondary">Anomaly detection</span></div>
+            <div class="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-4 sm:gap-6 items-center justify-between text-center"><img src="images/skill-owasp.svg" alt="" width="70" height="70"><p class="text-black">OWASP Top 10</p><span class="text-xs text-secondary">Vuln assessment</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 Latest Works -->
+  <section id="work" class="bg-softGray">
+    <div class="container py-16 xl:py-32">
+      <div class="sec-head"><h2>Latest Works</h2><p class="text-xl text-primary">( 04 )</p></div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10 xl:gap-y-12">
+        <article class="group flex flex-col gap-3 xl:gap-6">
+          <a href="https://github.com/arockiaandrew0-commits" target="_blank" rel="noopener" class="relative block rounded-lg overflow-hidden">
+            <img src="images/work-1.svg" alt="Anomaly score chart with an alert spike" width="570" height="414" class="w-full h-auto block">
+            <span class="absolute inset-0 hidden group-hover:flex items-center justify-center bg-primary/15 backdrop-blur-[2px]">
+              <svg width="64" height="64" viewBox="0 0 65 64" fill="none"><rect x=".33" width="64" height="64" rx="32" fill="#FE4300"/><path d="M25.67 25.33H39M39 25.33V38.67M39 25.33L25.67 38.67" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+          <div class="flex flex-col gap-1 xl:gap-2">
+            <div class="flex items-center justify-between gap-4"><h5>Advanced Threat Detection &amp; Response System</h5><img src="images/right-arrow-icon.svg" alt="" width="30" height="30"></div>
+            <p>Final-year project · Python, Scikit-learn. Learns normal traffic, flags anomalies and blocks the source automatically.</p>
+          </div>
+        </article>
+        <article class="group flex flex-col gap-3 xl:gap-6">
+          <a href="https://github.com/arockiaandrew0-commits" target="_blank" rel="noopener" class="relative block rounded-lg overflow-hidden">
+            <img src="images/work-2.svg" alt="Terminal showing intrusion alerts" width="570" height="414" class="w-full h-auto block">
+            <span class="absolute inset-0 hidden group-hover:flex items-center justify-center bg-primary/15 backdrop-blur-[2px]">
+              <svg width="64" height="64" viewBox="0 0 65 64" fill="none"><rect x=".33" width="64" height="64" rx="32" fill="#FE4300"/><path d="M25.67 25.33H39M39 25.33V38.67M39 25.33L25.67 38.67" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+          <div class="flex flex-col gap-1 xl:gap-2">
+            <div class="flex items-center justify-between gap-4"><h5>Network Intrusion Detection System</h5><img src="images/right-arrow-icon.svg" alt="" width="30" height="30"></div>
+            <p>Mini project · Python raw sockets. Decodes packets by hand and alerts on brute-force and flood patterns.</p>
+          </div>
+        </article>
+        <article class="group flex flex-col gap-3 xl:gap-6">
+          <div class="relative rounded-lg overflow-hidden">
+            <img src="images/work-3.svg" alt="Hex dump of a disk image under a magnifying glass" width="570" height="414" class="w-full h-auto block">
+          </div>
+          <div class="flex flex-col gap-1 xl:gap-2">
+            <div class="flex items-center justify-between gap-4"><h5>Digital Forensics Casework</h5><img src="images/right-arrow-icon.svg" alt="" width="30" height="30"></div>
+            <p>CDAC internship · Disk and network evidence analysis with hash verification and chain-of-custody logging.</p>
+          </div>
+        </article>
+        <article class="group flex flex-col gap-3 xl:gap-6">
+          <div class="relative rounded-lg overflow-hidden">
+            <img src="images/work-4.svg" alt="Network map with an Nmap scan finding an open web port" width="570" height="414" class="w-full h-auto block">
+          </div>
+          <div class="flex flex-col gap-1 xl:gap-2">
+            <div class="flex items-center justify-between gap-4"><h5>Lab Penetration Test</h5><img src="images/right-arrow-icon.svg" alt="" width="30" height="30"></div>
+            <p>IT Desk internship · Recon, service scanning and exploitation of a lab network, with a findings report.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 Contact -->
+  <section id="contact">
+    <div class="container pt-16 md:pt-32 pb-20">
+      <div class="sec-head"><h2>Contact Me</h2><p class="text-xl text-primary">( 05 )</p></div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="flex flex-col gap-6">
+          <h3 class="leading-tight">Hiring for a security team? Let's talk.</h3>
+          <p class="text-lg max-w-md">I reply to every message. Email is the fastest way to reach me.</p>
+          <div class="flex flex-wrap gap-3">
+            <button type="button" class="btn-o cursor-pointer bg-transparent" data-copy="arockiaandrew0@gmail.com"><span class="text-primary">Copy email</span></button>
+            <button type="button" class="btn-o cursor-pointer bg-transparent" data-copy="+916379663059"><span class="text-primary">Copy phone</span></button>
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row md:flex-col justify-between gap-8 md:gap-20 items-center md:items-end">
+          <div class="flex flex-wrap flex-row md:flex-col items-start md:items-end gap-4 md:gap-6">
+            <a class="text-base sm:text-lg text-secondary hover:text-primary no-underline" href="https://www.linkedin.com/in/arockia-andrew-823248445" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="text-base sm:text-lg text-secondary hover:text-primary no-underline" href="https://github.com/arockiaandrew0-commits" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <div class="flex flex-wrap justify-center gap-5 lg:gap-11 items-end">
+            <a href="mailto:arockiaandrew0@gmail.com" class="text-base lg:text-lg text-black border-b border-black pb-3 hover:text-primary hover:border-primary no-underline break-all">arockiaandrew0@gmail.com</a>
+            <span class="text-base lg:text-lg text-black border-b border-black pb-3">+91 63796 63059</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="py-8 sm:py-14">
+  <div class="container flex flex-col gap-3 items-center sm:items-start">
+    <div class="relative flex items-center w-full">
+      <div class="flex-grow h-px bg-black"></div>
+      <a href="#top" class="mx-4" aria-label="Back to top"><img src="images/logo.svg" alt="AA logo" width="70" height="70"></a>
+      <div class="flex-grow h-px bg-black"></div>
+    </div>
+    <p class="text-sm">© <span id="yr">2026</span> Arockia Andrew · Colachal, Tamil Nadu · Template design by <a href="https://getnextjstemplates.com/" target="_blank" rel="noopener" class="text-primary">getnextjstemplates</a> (MIT)</p>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    var label = b.querySelector('span'), orig = label.textContent;
+    b.addEventListener('click', function () {
+      var t = b.getAttribute('data-copy');
+      function done() { label.textContent = 'Copied!'; setTimeout(function () { label.textContent = orig; }, 1600); }
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(done, function () { label.textContent = t; });
+      else label.textContent = t;
+    });
+  });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

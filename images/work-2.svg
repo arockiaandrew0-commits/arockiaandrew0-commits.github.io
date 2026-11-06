@@ -1,0 +1,17 @@
+<svg width="570" height="414" viewBox="0 0 570 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="570" height="414" fill="#D7DCDD"/>
+<circle cx="70" cy="380" r="140" fill="#FE4300" opacity=".18"/>
+<rect x="55" y="55" width="460" height="304" rx="16" fill="#111111"/>
+<circle cx="80" cy="80" r="6" fill="#FE4300"/><circle cx="100" cy="80" r="6" fill="#555"/><circle cx="120" cy="80" r="6" fill="#555"/>
+<text x="150" y="85" font-family="Consolas, monospace" font-size="12" fill="#888">nids.py — raw socket</text>
+<g font-family="Consolas, 'Courier New', monospace" font-size="14">
+<text x="80" y="128" fill="#C0D8E0">$ sudo python3 nids.py</text>
+<text x="80" y="160" fill="#7ee0c3">[+] listening AF_PACKET</text>
+<text x="80" y="188" fill="#ffffff">[+] IPv4/TCP 192.168.1.14 → :22</text>
+<text x="80" y="216" fill="#ffffff">[+] IPv4/UDP 192.168.1.9 → :53</text>
+<text x="80" y="244" fill="#FE4300">[!] SSH brute force · 41 SYN/10s</text>
+<text x="80" y="272" fill="#FE4300">[!] ICMP flood · 920 pkt/s</text>
+<text x="80" y="300" fill="#7ee0c3">[+] alerts.log · 2 new</text>
+<rect x="80" y="318" width="10" height="18" fill="#FE4300"/>
+</g>
+</svg>

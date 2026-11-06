@@ -1,0 +1,19 @@
+<svg width="570" height="414" viewBox="0 0 570 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="570" height="414" fill="#C0D8E0"/>
+<rect x="70" y="70" width="300" height="274" rx="14" fill="#ffffff"/>
+<text x="94" y="104" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#000">evidence_disk.img</text>
+<g font-family="Consolas, monospace" font-size="12" fill="#868686">
+<text x="94" y="136">0000  4D 5A 90 00 03 00 00 00</text>
+<text x="94" y="158">0010  B8 00 00 00 00 00 00 00</text>
+<text x="94" y="180" fill="#FE4300">0020  50 4B 03 04 14 00 06 00</text>
+<text x="94" y="202">0030  00 00 00 00 00 00 00 00</text>
+<text x="94" y="224">0040  0E 1F BA 0E 00 B4 09 CD</text>
+<text x="94" y="246">0050  21 B8 01 4C CD 21 54 68</text>
+</g>
+<rect x="94" y="270" width="250" height="52" rx="10" fill="#F0F0F0"/>
+<text x="108" y="292" font-family="Consolas, monospace" font-size="11" fill="#000">SHA-256 verified ✓</text>
+<text x="108" y="310" font-family="Consolas, monospace" font-size="11" fill="#868686">chain of custody logged</text>
+<circle cx="390" cy="220" r="78" stroke="#000" stroke-width="16" fill="#ffffff" fill-opacity=".35"/>
+<line x1="446" y1="276" x2="510" y2="340" stroke="#000" stroke-width="22" stroke-linecap="round"/>
+<circle cx="390" cy="220" r="34" fill="#FE4300"/>
+</svg>
